@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular.ttf'), url('../fonts/Raleway/Raleway-Regular.ttf');
+}
+body {
+  font-family: 'Raleway', sans-serif;}
+
+
+.schoolscam{
+  border-top:1px solid grey;
+  border-right:1px solid grey;
+  border-left:1px solid grey;
+  padding:10px;
+}
+.schoolscam p{
+  text-align: center;
+  color:darkred;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:inherit;
+}
+.schoolscam h4{
+  color: green;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.schoolscam table{
+margin-left: 80px;
+}
+.schoolscam table tr td{
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+.schoolscam .table2 table {
+  margin-top:20px;
+}
+.footer{
+  padding-top: 0px;
+  border-right:1px solid grey;
+  border-left:1px solid grey;
+  border-bottom:1px solid grey;
+
+}
